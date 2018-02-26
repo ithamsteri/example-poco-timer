@@ -5,7 +5,7 @@ Poco/1.8.1@pocoproject/stable
 Poco:shared=False
 Poco:enable_xml=False
 Poco:enable_json=False
-Poco:endble_mongodb=False
+Poco:enable_mongodb=False
 Poco:enable_pdf=False
 Poco:enable_data=False
 Poco:enable_data_sqlite=False
