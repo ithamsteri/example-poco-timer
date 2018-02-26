@@ -1,8 +1,9 @@
 dist: trusty
+sudo: required
 language: cpp
 compiler: clang
 install:
-  - pip install conan
+  - sudo pip install conan
 script:
   - mkdir Build && cd Build
   - conan install ..
