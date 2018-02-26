@@ -6,6 +6,6 @@ install:
   - sudo pip install conan
 script:
   - mkdir Build && cd Build
-  - conan install ..
+  - conan install .. --build missing
   - cmake .. -DCMAKE_BUILD_TYPE=Release
   - cmake --build .
